@@ -50,7 +50,7 @@ export default function Form() {
       </Select>
 
        <Input
-        placeholder="Your Email"
+        placeholder="booking date"
         type="datetime-local"
         className="border-2 border-gray-800 text-black"
       />
@@ -58,8 +58,8 @@ export default function Form() {
       <button className="bg-amber-400 text-white p-2 rounded-2xl mt-4 ">Book now</button>
       </div>
 
-      <div className="">
-        <iframe className="rounded-2xl " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8552.972277907753!2d-74.0394791721338!3d40.71950575057074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1763465623181!5m2!1str!2str" width="500" height="300"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      <div className=" mt-6">
+        <iframe className="rounded-2xl  w-full max-w-[500px] h-[300px] md:h-[400px] md:w-[600px] " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8552.972277907753!2d-74.0394791721338!3d40.71950575057074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1763465623181!5m2!1str!2str"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
          
      

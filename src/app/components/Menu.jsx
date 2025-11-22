@@ -12,7 +12,7 @@ const Menu = () => {
   return (
     <div id='menu' className='text-center mt-24 w-full'>
          <h2 className={`${dancing.className}  text-6xl`  }>Our Menu</h2>
-       <div className='flex justify-center items-center gap-20 mt-12'>
+       <div className='flex justify-center items-center gap-10   lg:gap-20 mt-12'>
       
         <a href="">Burger</a>
         <a href="">Pizza</a>
@@ -82,7 +82,7 @@ const Menu = () => {
        
        </div>
      
-       <button className='bg-amber-400 text-white rounded-2xl p-2 mt-14'>View More...</button>
+       <button className='bg-amber-400 text-white rounded-2xl p-2 mt-8'>View More...</button>
 
     </div>
   )

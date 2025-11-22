@@ -90,7 +90,7 @@ if(topMenuRef.current && !topMenuRef.current.contains(e.target)&& hamburgMenuRef
 
         <div ref={hamburgMenuRef} onClick={(e)=> setisMenu(!isMenu)}
          className='lg:hidden mr-4'>
-          <LiaHamburgerSolid className='size-12 text-amber-400 hover:text-amber-200  hover:cursor-pointer' />
+          <LiaHamburgerSolid className='size-10 text-amber-400 hover:text-amber-200  hover:cursor-pointer' />
         </div>
     </section>
   )
