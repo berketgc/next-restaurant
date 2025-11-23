@@ -5,7 +5,7 @@ const MenuItem = ({ img, title, desc, price }) => {
   return (
     <div className="flex flex-col rounded-lg overflow-hidden w-full max-w-sm m-auto bg-gray-600">
       
-      {/* Image div */}
+  
       <div className="relative w-full h-60 ">
         <Image
           src={img}
@@ -16,7 +16,6 @@ const MenuItem = ({ img, title, desc, price }) => {
         />
       </div>
 
-      {/* Text div */}
       <div className="p-4 flex flex-col gap-2 text-center ">
         <h2 className="text-3xl font-bold hover:underline hover:cursor-pointer text-white hover:text-amber-400">{title}</h2>
         <p className="text-gray-300 mt-6">{desc}</p>
